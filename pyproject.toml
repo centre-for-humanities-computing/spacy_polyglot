@@ -31,10 +31,10 @@ keywords = [
 requires-python = ">=3.8"
 dependencies = [
     "Morfessor==2.0.6",
-    "spacy==3.4.4",
+    "spacy>=3.4.4",
     "pycld2==0.41",
-    "polyglot",
-    "pyicu"
+    "polyglot>=16.7.4",
+    "pyicu>=2.11"
 ]
 
 

@@ -102,7 +102,14 @@ class PolyglotComponent:
 if __name__ == "__main__":
     import spacy
 
+    # for danish
     nlp = spacy.blank("da")
     nlp.add_pipe("polyglot", last=True)
     doc = nlp("Jeg hedder Anders og bor i Odense.")
+    print(doc.ents)
+
+    # for english
+    nlp = spacy.blank("en")
+    nlp.add_pipe("polyglot", last=True)
+    doc = nlp("My name is Anders and I live in Odense.")
     print(doc.ents)
