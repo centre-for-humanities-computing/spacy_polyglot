@@ -33,7 +33,7 @@ dependencies = [
     "Morfessor==2.0.6",
     "spacy==3.4.4",
     "pycld2==0.41",
-    "polyglot"
+    "polyglot",
     "pyicu"
 ]
 

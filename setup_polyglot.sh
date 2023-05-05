@@ -2,6 +2,7 @@
 # just an example setup script
 
 # activate virtual environment 
+apt-get install python3-venv
 echo -e "[INFO:] Creating environment ..." # user msg
 python3.9 -m venv polyenv
 source ./polyenv/bin/activate

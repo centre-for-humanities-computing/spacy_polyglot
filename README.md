@@ -4,6 +4,19 @@ A spaCy wrapper for using polyglot within spaCy.
 
 ## Installation
 ```bash
+# install dev tools
+apt-get install python3-venv
+echo -e "[INFO:] Installing DEV tools ..." # user msg
+apt-get update && apt-get install -y apt-transport-https -y
+apt-get install libicu-dev -y
+apt-get install python3-dev -y
+
+#install things in this order
+echo -e "[INFO:] Installing packages ..." # user msg
+pip install pycld2
+pip install polyglot
+pip install --no-binary=:pyicu: pyicu
+
 pip install https://github.com/centre-for-humanities-computing/spacy_polyglot
 ```
 
