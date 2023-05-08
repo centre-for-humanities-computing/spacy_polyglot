@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "spacy_polyglot"
-version = "0.0.0"
+version = "0.0.1"
 description = "A pipeline for spaCy using polyglot. It is not recommended for uses besides validation."
 authors = [
   {name = "Kenneth Enevoldsen", email = "kennethcenevoldsen@gmail.com"}, 

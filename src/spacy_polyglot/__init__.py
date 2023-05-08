@@ -87,8 +87,6 @@ class PolyglotComponent:
             [t.text for t in doc],
             language=self.nlp.lang,
         )
-        text = Text(doc.text, hint_language_code="da")
-        words = text.words
         # ner
         iob = [iob for token, iob in self.ne_chunker.annotate(words)]
         # pos-tagging
